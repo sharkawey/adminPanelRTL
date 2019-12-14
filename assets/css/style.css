@@ -8421,7 +8421,7 @@ body .pcoded[vertical-nav-type="compact"] .main-menu {
   body .pcoded[vertical-nav-type="compact"] .main-menu .mCSB_container_wrapper {
     overflow: visible !important; }
 body.menu-bottom .navbar-wrapper {
-  .z-index: 1050; }
+  z-index: 1050; }
 body.menu-bottom .pcoded .pcoded-main-container {
   margin-top: 0 !important; }
 body.menu-bottom .p-chat-user,
