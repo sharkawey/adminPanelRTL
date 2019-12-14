@@ -9890,9 +9890,9 @@ body.menu-bottom #collapse-menu {
     border: 2px solid #4099ff;
     cursor: pointer;
     display: inline-block;
-    float: left;
+    float: right;
     height: 20px;
-    margin-right: 0.5em;
+    margin-left: 0.5em;
     position: relative;
     width: 20px; }
     .checkbox-fade .cr .cr-icon, .checkbox-zoom .cr .cr-icon {
