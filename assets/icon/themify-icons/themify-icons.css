@@ -17,12 +17,10 @@
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
-
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}
-
+} 
 .ti-wand:before {
 	content: "\e600";
 }
@@ -31,6 +29,8 @@
 }
 .ti-user:before {
 	content: "\e602";
+	float: right;
+    margin-top: 5px;
 }
 .ti-unlock:before {
 	content: "\e603";
@@ -70,6 +70,8 @@
 }
 .ti-settings:before {
 	content: "\e60f";
+	float: right;
+    margin-top: 5px;
 }
 .ti-search:before {
 	content: "\e610";
@@ -154,6 +156,8 @@
 }
 .ti-lock:before {
 	content: "\e62b";
+	float: right;
+    margin-top: 5px;
 }
 .ti-location-arrow:before {
 	content: "\e62c";
@@ -754,6 +758,8 @@
 }
 .ti-layout-sidebar-left:before {
 	content: "\e6f3";
+	float: right;
+    margin-top: 5px;
 }
 .ti-layout-placeholder:before {
 	content: "\e6f4";

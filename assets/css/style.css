@@ -35,7 +35,7 @@ body {
   background-attachment: fixed; }
 
 ul {
-  padding-left: 0;
+  padding-right: 0;
   list-style-type: none;
   margin-bottom: 0; }
 
@@ -245,7 +245,7 @@ h6 {
       display: inline-block; }
     .card .card-header .card-header-right {
       border-radius: 0 0 0 7px;
-      right: 10px;
+      left: 10px;
       top: 18px;
       display: inline-block;
       float: right;
@@ -5767,8 +5767,8 @@ table tbody .border-bottom-info td {
       visibility: visible;
       width: 24rem;
       display: none;
-      -webkit-transform: translateY(80px);
-              transform: translateY(80px); }
+      -webkit-transform: translateY(20px);
+              transform: translateY(20px); }
       .header-navbar .navbar-wrapper .navbar-container .header-notification .show-notification a, .header-navbar .navbar-wrapper .navbar-container .header-notification .profile-notification a {
         color: #222; }
       .header-navbar .navbar-wrapper .navbar-container .header-notification .show-notification li, .header-navbar .navbar-wrapper .navbar-container .header-notification .profile-notification li {
@@ -5786,10 +5786,10 @@ table tbody .border-bottom-info td {
             font-weight: 600;
             margin-bottom: 0; }
           .header-navbar .navbar-wrapper .navbar-container .header-notification .show-notification li:first-child label, .header-navbar .navbar-wrapper .navbar-container .header-notification .profile-notification li:first-child label {
-            float: right; }
+            float: left; }
         .header-navbar .navbar-wrapper .navbar-container .header-notification .show-notification li img, .header-navbar .navbar-wrapper .navbar-container .header-notification .profile-notification li img {
           width: 40px;
-          margin-right: 10px;
+          margin-left: 10px;
           -ms-flex-item-align: start !important;
               align-self: flex-start !important; }
         .header-navbar .navbar-wrapper .navbar-container .header-notification .show-notification li:hover, .header-navbar .navbar-wrapper .navbar-container .header-notification .profile-notification li:hover {
@@ -8611,7 +8611,7 @@ body.menu-bottom #collapse-menu {
   width: 75px;
   height: 2.50rem;
   border-radius: 0.25rem;
-  margin-right: 30px;
+  margin-left: 30px;
   background-color: rgba(64, 153, 255, 0.5);
   border-color: rgba(64, 153, 255, 0.5); }
 .popover-body span.block {
@@ -11746,7 +11746,9 @@ table.footable-paging-center > tfoot > tr.footable-paging > td {
   color: #fff; }
   .primary-breadcrumb h5, .inverse-breadcrumb h5, .danger-breadcrumb h5, .info-breadcrumb h5, .warning-breadcrumb h5, .success-breadcrumb h5, .primary-breadcrumb a, .inverse-breadcrumb a, .danger-breadcrumb a, .info-breadcrumb a, .warning-breadcrumb a, .success-breadcrumb a, .primary-breadcrumb .breadcrumb-title li:last-child a, .inverse-breadcrumb .breadcrumb-title li:last-child a, .danger-breadcrumb .breadcrumb-title li:last-child a, .info-breadcrumb .breadcrumb-title li:last-child a, .warning-breadcrumb .breadcrumb-title li:last-child a, .success-breadcrumb .breadcrumb-title li:last-child a, .primary-breadcrumb .breadcrumb-item + .breadcrumb-item::before, .inverse-breadcrumb .breadcrumb-item + .breadcrumb-item::before, .danger-breadcrumb .breadcrumb-item + .breadcrumb-item::before, .info-breadcrumb .breadcrumb-item + .breadcrumb-item::before, .warning-breadcrumb .breadcrumb-item + .breadcrumb-item::before, .success-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
     color: #fff; }
-
+.breadcrumb-item{
+  float: right;
+}
 .inverse-breadcrumb {
   background-color: #222; }
 
